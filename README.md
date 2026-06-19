@@ -69,3 +69,33 @@ Big-Data-Analytics/
 - Implement a custom WordCount program in Java.
 - Explore Mapper and Reducer classes in detail.
 - Practice additional MapReduce examples such as Average, Inverted Index, and Log Analysis.
+
+
+# Hadoop MapReduce – Word Count on Multiple Files
+
+## Objective
+
+Perform a Word Count operation on multiple text files stored in HDFS using the Hadoop MapReduce framework and display the frequency of each word.
+
+## Steps Performed
+
+1. Started Hadoop services.
+2. Created an HDFS input directory (`/input2`).
+3. Created two sample text files (`file1.txt` and `file2.txt`).
+4. Uploaded both files to HDFS using `hdfs dfs -put`.
+5. Executed the built-in Hadoop `wordcount` MapReduce program.
+6. Stored the results in a new HDFS output directory.
+7. Displayed the final word frequencies using `hdfs dfs -cat`.
+
+## Key Commands
+
+* Create HDFS directory: `hdfs dfs -mkdir /input2`
+* Upload files: `hdfs dfs -put file1.txt /input2`
+* Run WordCount:
+  `hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-*.jar wordcount /input2 /output3`
+* View output:
+  `hdfs dfs -cat /output3/part-r-00000`
+
+## Outcome
+
+The Hadoop MapReduce job successfully processed multiple input files from HDFS and generated the frequency count of each unique word in the output directory.

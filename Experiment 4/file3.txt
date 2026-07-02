@@ -1,0 +1,3 @@
+Hadoop provides fault tolerance and high availability.
+Apache Hadoop supports parallel data processing.
+Learning Hadoop is essential for big data analytics.

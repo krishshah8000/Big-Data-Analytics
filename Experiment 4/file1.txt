@@ -1,0 +1,3 @@
+Hadoop is an open source framework.
+Hadoop is used for distributed storage and processing.
+HDFS stands for Hadoop Distributed File System.

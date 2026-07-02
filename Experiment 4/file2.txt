@@ -1,0 +1,4 @@
+
+YARN manages cluster resources in Hadoop.
+Big data applications use Hadoop for scalability.
+Data is stored across multiple nodes in a Hadoop cluster.

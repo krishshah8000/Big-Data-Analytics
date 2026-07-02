@@ -1,0 +1,10 @@
+Hadoop is an open source framework.
+Hadoop is used for distributed storage and processing.
+HDFS stands for Hadoop Distributed File System.
+MapReduce is a programming model for processing large datasets.
+YARN manages cluster resources in Hadoop.
+Big data applications use Hadoop for scalability.
+Data is stored across multiple nodes in a Hadoop cluster.
+Hadoop provides fault tolerance and high availability.
+Apache Hadoop supports parallel data processing.
+Learning Hadoop is essential for big data analytics.

@@ -1,1 +1,1 @@
-
+Successfully Generated Large Dataset: Created a realistic sales dataset with 50,000 records containing date, product, price, city, customer, and quantity fields. Implemented MapReduce in Python: Developed custom Mapper and Reducer scripts following the Hadoop Streaming paradigm, demonstrating the power of Python for big data processing.
